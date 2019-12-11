@@ -1,0 +1,29 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended",
+      "tslint-config-airbnb",
+      "tslint-config-prettier"
+    ],
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "jsRules": {},
+    "rules": {
+      "import-name": false,
+      "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case"
+      ],
+      "semicolon": [true, "always"],
+      "interface-name": [true, "always-prefix"],
+      "no-shadowed-variable": false,
+      "object-literal-sort-keys": false,
+      "ordered-imports": false,
+      "no-angle-bracket-type-assertion": true,
+      "array-type": [true, "array"],
+      "member-access": [true, "no-public"],
+      "eofline": true
+    }
+  }
+  

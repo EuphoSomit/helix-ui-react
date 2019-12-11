@@ -1,0 +1,37 @@
+{
+  "name": "@o365/helix-ui-react",
+  "version": "1.0.0",
+  "description": "helix UI with react and typescript",
+  "author": "Somit <somit.kumar@rackspace.com>",
+  "homepage": "https://github.com/EuphoSomit/helix-ui-react#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc --watch"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EuphoSomit/helix-ui-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EuphoSomit/helix-ui-react/issues"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.0",
+    "helix-ui": "^0.18.0-rc.2"
+  }
+}
