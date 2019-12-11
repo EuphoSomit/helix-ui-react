@@ -8,8 +8,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc -p .",
-    "build:watch": "tsc --watch"
+    "build": "tsc -p ."
   },
   "peerDependencies": {
     "react": "^16.11.0"
